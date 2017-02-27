@@ -9,7 +9,7 @@ var config = {
       name: 'optimed-panacea'
     },
     port: process.env.PORT || 3000,
-    db: 'postgres://localhost/optimed-panacea-development'
+    db: 'postgres://localhost/optimed'
   },
 
   test: {
@@ -18,7 +18,7 @@ var config = {
       name: 'optimed-panacea'
     },
     port: process.env.PORT || 3000,
-    db: 'postgres://localhost/optimed-panacea-test'
+    db: 'postgres://localhost/optimed'
   },
 
   production: {
@@ -27,7 +27,7 @@ var config = {
       name: 'optimed-panacea'
     },
     port: process.env.PORT || 3000,
-    db: 'postgres://localhost/optimed-panacea-production'
+    db: 'postgres://localhost/optimed-panacea'
   }
 };
 
